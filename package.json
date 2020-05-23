@@ -6,7 +6,7 @@
   "homepage": "https://huicho510.github.io/new_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "master -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Luis Cervantes",
   "license": "MIT",
