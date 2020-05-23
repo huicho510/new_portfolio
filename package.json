@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
-  "homepage": "https://huicho510.github.io/new-port",
+  "homepage": "https://huicho510.github.io/new_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive",
     "deploy": "master -d dist"
