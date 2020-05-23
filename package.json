@@ -1,0 +1,17 @@
+{
+  "name": "new-port",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://huicho510.github.io/new-port",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "master -d dist"
+  },
+  "author": "Luis Cervantes",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.14.1"
+  }
+}
